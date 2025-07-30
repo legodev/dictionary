@@ -20,7 +20,7 @@ export default function Home() {
             </p>
           </article>
         </section>
-        <Link className={styles.mainLink} href="/index">
+        <Link className={styles.mainLink} href="/letters">
           Next
         </Link>
       </main>
