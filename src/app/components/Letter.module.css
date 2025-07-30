@@ -1,0 +1,290 @@
+.mainLink {
+  text-decoration: none;
+  color: #fff;
+  padding: 60px;
+  border-radius: 5px;
+  font-weight: 800;
+  border: 2px solid;
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.mainLink:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p,
+.q {
+  color: #000;
+}
+
+.a {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.b {
+  background-color: #ff4000;
+  border-color: #ff4000;
+}
+
+.c {
+  background-color: #ff6600;
+  border-color: #ff6600;
+}
+
+.d {
+  background-color: #ff8000;
+  border-color: #ff8000;
+}
+
+.e {
+  background-color: #ffa500;
+  border-color: #ffa500;
+}
+
+.f {
+  background-color: #ffb733;
+  border-color: #ffb733;
+}
+
+.g {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+.h {
+  background-color: #ffdd33;
+  border-color: #ffdd33;
+}
+
+.i {
+  background-color: #ffff00;
+  border-color: #ffff00;
+}
+
+.j {
+  background-color: #ddff33;
+  border-color: #ddff33;
+}
+
+.k {
+  background-color: #bfff00;
+  border-color: #bfff00;
+}
+
+.l {
+  background-color: #80ff00;
+  border-color: #80ff00;
+}
+
+.m {
+  background-color: #00ff00;
+  border-color: #00ff00;
+}
+
+.n {
+  background-color: #00ff66;
+  border-color: #00ff66;
+}
+
+.o {
+  background-color: #00ffb2;
+  border-color: #00ffb2;
+}
+
+.p {
+  background-color: #00ffff;
+  border-color: #00ffff;
+}
+
+.q {
+  background-color: #00ccff;
+  border-color: #00ccff;
+}
+
+.r {
+  background-color: #0099ff;
+  border-color: #0099ff;
+}
+
+.s {
+  background-color: #0066ff;
+  border-color: #0066ff;
+}
+
+.t {
+  background-color: #0033ff;
+  border-color: #0033ff;
+}
+
+.u {
+  background-color: #0000ff;
+  border-color: #0000ff;
+}
+
+.v {
+  background-color: #3300ff;
+  border-color: #3300ff;
+}
+
+.w {
+  background-color: #6600ff;
+  border-color: #6600ff;
+}
+
+.x {
+  background-color: #9900ff;
+  border-color: #9900ff;
+}
+
+.y {
+  background-color: #cc00ff;
+  border-color: #cc00ff;
+}
+
+.z {
+  background-color: #ff00ff;
+  border-color: #ff00ff;
+}
+
+.a:hover {
+  background-color: transparent;
+  color: #ff0000;
+}
+
+.b:hover {
+  background-color: transparent;
+  color: #ff4000;
+}
+
+.c:hover {
+  background-color: transparent;
+  color: #ff6600;
+}
+
+.d:hover {
+  background-color: transparent;
+  color: #ff8000;
+}
+
+.e:hover {
+  background-color: transparent;
+  color: #ffa500;
+}
+
+.f:hover {
+  background-color: transparent;
+  color: #ffb733;
+}
+
+.g:hover {
+  background-color: transparent;
+  color: #ffcc00;
+}
+
+.h:hover {
+  background-color: transparent;
+  color: #ffdd33;
+}
+
+.i:hover {
+  background-color: transparent;
+  color: #ffff00;
+}
+
+.j:hover {
+  background-color: transparent;
+  color: #ddff33;
+}
+
+.k:hover {
+  background-color: transparent;
+  color: #bfff00;
+}
+
+.l:hover {
+  background-color: transparent;
+  color: #80ff00;
+}
+
+.m:hover {
+  background-color: transparent;
+  color: #00ff00;
+}
+
+.n:hover {
+  background-color: transparent;
+  color: #00ff66;
+}
+
+.o:hover {
+  background-color: transparent;
+  color: #00ffb2;
+}
+
+.p:hover {
+  background-color: transparent;
+  color: #00ffff;
+}
+
+.q:hover {
+  background-color: transparent;
+  color: #00ccff;
+}
+
+.r:hover {
+  background-color: transparent;
+  color: #0099ff;
+}
+
+.s:hover {
+  background-color: transparent;
+  color: #0066ff;
+}
+
+.t:hover {
+  background-color: transparent;
+  color: #0033ff;
+}
+
+.u:hover {
+  background-color: transparent;
+  color: #0000ff;
+}
+
+.v:hover {
+  background-color: transparent;
+  color: #3300ff;
+}
+
+.w:hover {
+  background-color: transparent;
+  color: #6600ff;
+}
+
+.x:hover {
+  background-color: transparent;
+  color: #9900ff;
+}
+
+.y:hover {
+  background-color: transparent;
+  color: #cc00ff;
+}
+
+.z:hover {
+  background-color: transparent;
+  color: #ff00ff;
+}
