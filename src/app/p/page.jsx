@@ -3,6 +3,11 @@ import Word from '../components/Word'
 
 const textsP = [
   {
+    subtitle: 'Path (n.):',
+    paragraph:
+      'Specifies the location of a specific page or resource within the website. It`s like a folder structure on a computer, for example, /category/example-page in example.com/category/example-page.',
+  },
+  {
     subtitle: 'PCM (abbr.): ',
     paragraph: ' Common text message abbreviation for "Please call me."',
   },
@@ -25,7 +30,7 @@ const textsP = [
     subtitle: 'Protocol (n.): ',
     paragraph:
       'A set of rules or conventions that govern the communication of data between different devices or systems on a network. (e.g., HTTP, FTP, TCP/IP).',
-  }
+  },
 ]
 
 export default function P() {

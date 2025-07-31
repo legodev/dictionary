@@ -7,6 +7,11 @@ const textsC = [
     paragraph: 'Cyber-English abbreviation for "see" (e.g., "c u").',
   },
   {
+    subtitle: 'CSS (Cascading Style Sheets) (n.): ',
+    paragraph:
+      'A style sheet language used to describe the presentation of a document written in HTML or another markup language.',
+  },
+  {
     subtitle: 'Chat rooms (n. phrase):',
     paragraph: 'Online spaces for real-time text-based conversation.',
   },

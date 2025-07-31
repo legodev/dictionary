@@ -3,6 +3,11 @@ import Word from '../components/Word'
 
 const textsA = [
   {
+    subtitle: 'Anchor (n.): ',
+    paragraph:
+      'Found at the end of a URL, preceded by the # symbol. It indicates a specific section within a webpage, allowing the browser to jump directly to that point in the content.',
+  },
+  {
     subtitle: 'Adverb of place (n. phrase):',
     paragraph:
       "A word or phrase that tells you where something happens (e.g., 'here,' 'there'). It may change in reported speech.",
