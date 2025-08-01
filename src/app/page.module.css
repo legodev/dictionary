@@ -1,22 +1,8 @@
 .mainContainer,
-.sectionArticle {
-  display: flex;
-  flex-direction: column;
-}
-
-.mainContainer {
-  justify-content: center;
-  align-items: center;
-  gap: 150px;
-}
-
-.mainTitle {
-  font-size: 5rem;
-}
-
+.sectionArticle,
 .sectionContainer {
   display: flex;
-  gap: 250px;
+  flex-direction: column;
 }
 
 .sectionArticle {
@@ -40,7 +26,39 @@
   transition: background-color 400ms ease, color 400ms ease;
 }
 
-.mainLink:hover {
-  background-color: #fff;
-  color: #111;
+.mainContainer {
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 150px;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+}
+
+.sectionContainer {
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .mainContainer {
+    gap: 150px;
+  }
+
+  .mainTitle {
+    font-size: 5rem;
+  }
+
+  .sectionContainer {
+    flex-direction: row;
+    gap: 250px;
+  }
+
+  .mainLink:hover {
+    background-color: #fff;
+    color: #111;
+  }
 }

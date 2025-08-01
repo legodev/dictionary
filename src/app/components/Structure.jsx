@@ -10,6 +10,7 @@ export default function Structure({ letter, previous, next, children }) {
         <Link className={styles.mainLink} href={previous}>
           Previous
         </Link>
+        <Link className={styles.mainLink} href={'./letters'}>Index</Link>
         <Link className={styles.mainLink} href={next}>
           Next
         </Link>

@@ -1,6 +1,6 @@
 .mainContainer {
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
   display: flex;
   overflow: hidden;
   width: 100%;
@@ -17,7 +17,7 @@
 .title {
   font-size: 5em;
   position: fixed;
-  background-color: #0a0a0a;
+  background-color: var(--foreground);
   width: 100%;
   top: 0;
   margin: 0;
@@ -42,5 +42,11 @@
 .section {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .mainContainer {
+    gap: 100px;
+  }
 }

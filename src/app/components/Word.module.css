@@ -1,14 +1,24 @@
 .wordSection {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .wordSubtitle {
-    font-size: 2em;
+  font-size: 1.5em;
 }
 
 .wordText {
-    color: #999999;
+  color: #999999;
+  font-size: 1em;
+}
+
+@media screen and (min-width: 600px) {
+  .wordSubtitle {
+    font-size: 1.7em;
+  }
+
+  .wordText {
     font-size: 1.2em;
+  }
 }

@@ -3,6 +3,7 @@
   height: calc(100vh - 100px);
   flex-wrap: wrap;
   padding: 50px;
+  max-width: 100%;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -11,7 +12,7 @@
 .mainLink {
   text-decoration: none;
   color: #fff;
-  padding: 60px;
+  padding: 15px 25px;
   border-radius: 5px;
   font-weight: 800;
   border: 2px solid;
@@ -28,6 +29,16 @@
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 600px) {
+
+.mainLink {
+  padding: 25px 45px;
+}
+  .section {
   padding: 50px;
 }
 
+ }

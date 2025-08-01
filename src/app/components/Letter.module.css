@@ -1,16 +1,14 @@
 .mainLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: #fff;
-  padding: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 5px;
   font-weight: 800;
   border: 2px solid;
-  transition: background-color 300ms ease, color 300ms ease;
-}
-
-.mainLink:hover {
-  background-color: #fff;
-  color: #000;
 }
 
 .e,
@@ -159,132 +157,145 @@
   border-color: #ff00ff;
 }
 
-.a:hover {
-  background-color: transparent;
-  color: #ff0000;
-}
+@media screen and (min-width: 600px) {
+  .mainLink {
+    width: 150px;
+    height: 150px;
+    transition: background-color 300ms ease, color 300ms ease;
+  }
 
-.b:hover {
-  background-color: transparent;
-  color: #ff4000;
-}
+  .mainLink:hover {
+    background-color: #fff;
+    color: #000;
+  }
 
-.c:hover {
-  background-color: transparent;
-  color: #ff6600;
-}
+  .a:hover {
+    background-color: transparent;
+    color: #ff0000;
+  }
 
-.d:hover {
-  background-color: transparent;
-  color: #ff8000;
-}
+  .b:hover {
+    background-color: transparent;
+    color: #ff4000;
+  }
 
-.e:hover {
-  background-color: transparent;
-  color: #ffa500;
-}
+  .c:hover {
+    background-color: transparent;
+    color: #ff6600;
+  }
 
-.f:hover {
-  background-color: transparent;
-  color: #ffb733;
-}
+  .d:hover {
+    background-color: transparent;
+    color: #ff8000;
+  }
 
-.g:hover {
-  background-color: transparent;
-  color: #ffcc00;
-}
+  .e:hover {
+    background-color: transparent;
+    color: #ffa500;
+  }
 
-.h:hover {
-  background-color: transparent;
-  color: #ffdd33;
-}
+  .f:hover {
+    background-color: transparent;
+    color: #ffb733;
+  }
 
-.i:hover {
-  background-color: transparent;
-  color: #ffff00;
-}
+  .g:hover {
+    background-color: transparent;
+    color: #ffcc00;
+  }
 
-.j:hover {
-  background-color: transparent;
-  color: #ddff33;
-}
+  .h:hover {
+    background-color: transparent;
+    color: #ffdd33;
+  }
 
-.k:hover {
-  background-color: transparent;
-  color: #bfff00;
-}
+  .i:hover {
+    background-color: transparent;
+    color: #ffff00;
+  }
 
-.l:hover {
-  background-color: transparent;
-  color: #80ff00;
-}
+  .j:hover {
+    background-color: transparent;
+    color: #ddff33;
+  }
 
-.m:hover {
-  background-color: transparent;
-  color: #00ff00;
-}
+  .k:hover {
+    background-color: transparent;
+    color: #bfff00;
+  }
 
-.n:hover {
-  background-color: transparent;
-  color: #00ff66;
-}
+  .l:hover {
+    background-color: transparent;
+    color: #80ff00;
+  }
 
-.o:hover {
-  background-color: transparent;
-  color: #00ffb2;
-}
+  .m:hover {
+    background-color: transparent;
+    color: #00ff00;
+  }
 
-.p:hover {
-  background-color: transparent;
-  color: #00ffff;
-}
+  .n:hover {
+    background-color: transparent;
+    color: #00ff66;
+  }
 
-.q:hover {
-  background-color: transparent;
-  color: #00ccff;
-}
+  .o:hover {
+    background-color: transparent;
+    color: #00ffb2;
+  }
 
-.r:hover {
-  background-color: transparent;
-  color: #0099ff;
-}
+  .p:hover {
+    background-color: transparent;
+    color: #00ffff;
+  }
 
-.s:hover {
-  background-color: transparent;
-  color: #0066ff;
-}
+  .q:hover {
+    background-color: transparent;
+    color: #00ccff;
+  }
 
-.t:hover {
-  background-color: transparent;
-  color: #0033ff;
-}
+  .r:hover {
+    background-color: transparent;
+    color: #0099ff;
+  }
 
-.u:hover {
-  background-color: transparent;
-  color: #0000ff;
-}
+  .s:hover {
+    background-color: transparent;
+    color: #0066ff;
+  }
 
-.v:hover {
-  background-color: transparent;
-  color: #3300ff;
-}
+  .t:hover {
+    background-color: transparent;
+    color: #0033ff;
+  }
 
-.w:hover {
-  background-color: transparent;
-  color: #6600ff;
-}
+  .u:hover {
+    background-color: transparent;
+    color: #0000ff;
+  }
 
-.x:hover {
-  background-color: transparent;
-  color: #9900ff;
-}
+  .v:hover {
+    background-color: transparent;
+    color: #3300ff;
+  }
 
-.y:hover {
-  background-color: transparent;
-  color: #cc00ff;
-}
+  .w:hover {
+    background-color: transparent;
+    color: #6600ff;
+  }
 
-.z:hover {
-  background-color: transparent;
-  color: #ff00ff;
+  .x:hover {
+    background-color: transparent;
+    color: #9900ff;
+  }
+
+  .y:hover {
+    background-color: transparent;
+    color: #cc00ff;
+  }
+
+  .z:hover {
+    background-color: transparent;
+    color: #ff00ff;
+  }
 }
