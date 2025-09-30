@@ -43,6 +43,12 @@
   gap: 50px;
 }
 
+.sectionLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 @media screen and (min-width: 600px) {
   .mainContainer {
     gap: 150px;
@@ -61,4 +67,5 @@
     background-color: #fff;
     color: #111;
   }
+
 }

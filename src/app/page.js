@@ -20,9 +20,14 @@ export default function Home() {
             </p>
           </article>
         </section>
-        <Link className={styles.mainLink} href="/letters">
-          Next
-        </Link>
+        <section className={styles.sectionLinks}>
+          <Link className={styles.mainLink} href="/letters">
+            Letters
+          </Link>
+          <Link className={styles.mainLink} href="/keyboard">
+            Keyboard
+          </Link>
+        </section>
       </main>
     </div>
   )
