@@ -45,7 +45,9 @@
 
 .sectionLinks {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
   width: 100%;
 }
 

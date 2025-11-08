@@ -27,6 +27,9 @@ export default function Home() {
           <Link className={styles.mainLink} href="/keyboard">
             Keyboard
           </Link>
+          <Link className={styles.mainLink} href="/programming">
+            Programming
+          </Link>
         </section>
       </main>
     </div>
